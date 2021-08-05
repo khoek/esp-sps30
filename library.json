@@ -1,0 +1,25 @@
+{
+    "name": "esp-sps30",
+    "version": "1.0.0",
+    "description": "A library built on esp-idf for reading SPS30 PM air quality sensors.",
+    "keywords": "sps30, pm, pm2.5, air, quality, sensor, i2c, hardware, esp-idf, esp32, esp8266",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/khoek/esp-sps30.git"
+    },
+    "authors": [
+        {
+            "name": "Keeley Hoek",
+            "email": "keeley@hoek.io",
+            "url": "https://hoek.io"
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/khoek/esp-sps30",
+    "frameworks": "espidf",
+    "platforms": "espressif32",
+    "dependencies": {
+        "khoek/libesp": "^2.2.0",
+        "khoek/esp-sensirion": "^1.0.0"
+    }
+}
